@@ -1,0 +1,318 @@
+.timeline-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-bottom: solid 1px white;
+    height: 70svh;
+
+    /* width: 100vw; */
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.timeline {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: rgb(0,33,71);
+    background: linear-gradient(90deg, rgba(0,33,71,1) 0%, rgba(255,255,255,1) 50%, rgba(187,19,62,1) 100%);
+}
+.event {
+    height: 335.25px;
+    width: 637px;
+    padding: 20px;
+    background: url("flags/colonies.svg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #cccccc;
+    border-radius: 20px;
+    border: 5px solid white;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 25px;
+    transition: transform 0.3s ease-out;
+    font-family: "IM Fell English", serif;
+    color:#1A1D30;
+    text-shadow: 
+      4px 2px 0 white,  /* Bottom right */
+      -2px -1px 0 white, /* Top left */
+      3px -2px 0 white,  /* Top right */
+      -3px 2px 0 white;  /* Bottom left */
+}
+
+.s13 {
+  background: url("flags/13.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s15 {
+  background: url("flags/15.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s20 {
+  background: url("flags/20.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s21 {
+  background: url("flags/21.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s23 {
+  background: url("flags/23.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s24 {
+  background: url("flags/24.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s25 {
+  background: url("flags/25.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s26 {
+  background: url("flags/26.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s27 {
+  background: url("flags/27.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s28 {
+  background: url("flags/28.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s29 {
+  background: url("flags/29.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s30 {
+  background: url("flags/30.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s31 {
+  background: url("flags/31.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s32 {
+  background: url("flags/32.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s33 {
+  background: url("flags/33.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s34 {
+  background: url("flags/34.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s35 {
+  background: url("flags/35.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s36 {
+  background: url("flags/36.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s37 {
+  background: url("flags/37.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s38 {
+  background: url("flags/38.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s43 {
+  background: url("flags/43.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s44 {
+  background: url("flags/44.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s45 {
+  background: url("flags/45.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s46 {
+  background: url("flags/46.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s48 {
+  background: url("flags/48.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s49 {
+  background: url("flags/49.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.s50 {
+  background: url("flags/50.svg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.event:hover {
+    background-color: gray;
+}
+
+.im-fell-english-regular {
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .im-fell-english-regular-italic {
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  h1 {
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: italic;
+    margin: 20px;
+    color: #1A1D30;
+  }
+
+  .flex {
+    display: flex;
+  }
+  
+  button {
+    margin: 10px;
+    width: auto;
+    height: 50px;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: left;
+    align-self: center;
+    background-color: #1A1D30;
+    color: white;
+    border-radius: 20px;
+    border: none;
+  }
+
+  button:hover {
+    box-shadow: #B42E2B 0px -1px 20px;
+    cursor: pointer;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #B42E2B; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #476388; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1A1D30; 
+  }
+
+  body {
+    background-color: #EBE0CE;
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 9999; /* Sit on top */
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto; /* Enable scrolling */
+}
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto; /* Enable scrolling */
+}
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    max-height: 80%;
+    overflow-y: scroll; /* Enable vertical scroll */
+}
+
+/* Text Style */
+.modal-content p {
+    font-family: "IM Fell English", serif;
+    font-size: 20px;
+    color: #1A1D30;
+    text-shadow: 
+        4px 2px 0 white, 
+        -2px -1px 0 white,
+        3px -2px 0 white,
+        -3px 2px 0 white;
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
